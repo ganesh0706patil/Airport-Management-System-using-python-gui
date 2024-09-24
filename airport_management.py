@@ -21,7 +21,7 @@ def pd():
         messagebox.showerror("Error", "All fields are required")
     else:
         con = mysql.connector.connect(
-            host="localhost", username="root", password="Ganu#$0706", database='airport_management'
+            host="localhost", username="root", password="your_password", database='airport_management'
         )
         my_cursor = con.cursor()
 
